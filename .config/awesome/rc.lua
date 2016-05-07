@@ -38,7 +38,7 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init("/usr/share/awesome/themes/default/theme.lua")
+beautiful.init("~/.config/awesome/theme/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "urxvt"
@@ -453,3 +453,4 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 
 os.execute("/bin/bash /home/norgat/.autostart.sh")
+
