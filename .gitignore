@@ -3,5 +3,5 @@
 
 # Except
 !.xmodmap
-!.config/*
 !.gitignore
+!.config/awesome/rc.lua
