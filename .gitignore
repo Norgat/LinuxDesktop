@@ -5,3 +5,4 @@
 !.xmodmap
 !.gitignore
 !.config/awesome/rc.lua
+!.autostart.sh
